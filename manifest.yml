@@ -1,0 +1,6 @@
+---
+applications:
+ - name: gender-fair-app
+   route: gender-fair-app
+   memory: 256M
+   buildpack: nodejs_buildpack
