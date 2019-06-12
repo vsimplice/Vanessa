@@ -1,0 +1,106 @@
+{
+  "ID":"123",
+  "companyInfo": {
+    "sector":"",
+    "company-name":"",
+    "summary":"",
+    "major-brands":"",
+    "non-major-brands":"",
+    "leadership-programs":"",
+    "women-board-pct":"",
+    "women-executives-pct":"",
+    "female-mgmt-pct":"",
+    "weeks-maternity":"",
+    "weeks-paternity":"",
+    "employee-div":"",
+    "supplier-div":"",
+    "special-programs":"",
+    "ad-text":"",
+    "philanthropy":"",
+    "sec-month":"",
+    "pay-equity-study":"",
+    "pledge":"",
+    "sec-url":"",
+    "notes":""
+  },
+  "scoring": {
+    "company-score":"",
+    "leadership-score":"",
+    "female-advance-prog":"",
+    "female-management-track":"",
+    "employee-score":"",
+    "paid-paternity":"",
+    "diversity-reporting-employee":"",
+    "diversity-reporting-supplier":"",
+    "special-womens-programs":"",
+    "consumers-score":"",
+    "phil-score":"",
+    "csr-women-programs":"",
+    "women-focused-initiatives":"",
+    "csr-philanthropy-report":"",
+    "women-financial-contrib":"",
+    "national-womens-program":""
+  }
+}
+
+category: background
+  website:
+  stock-ticker:
+  brands: []
+  products: []
+  media-contacts: []
+  press-contacts: []
+  pr-contacts: []
+
+category: leadership
+sub-category: board
+  number-women:
+  number-woc:
+sub-category: named-executives-sec
+  named-executives-sec
+    women:
+    woc:
+  executive-management-team
+    women:
+    woc:
+  female-managers
+    women:
+    woc:
+  resource-groups:
+  promotion-percentages:
+  woc-promotion-percentages:
+  equal-pay:
+
+category: policies
+  maternity-leave:
+  paternity-leave:
+  employee-benefits:
+  employee-diversity-reporting:
+
+category: reporting
+  leadership-target:
+  progress:
+  board-diversity:
+  minority-business-spending:
+  wob-disaggregated:
+  woc-disaggregated:
+  professional-services-targets:
+  suppliers-tier-two:
+
+category: community
+  philanthropy-women-focused:
+  philanthropy-directed-woc:
+
+category: communications
+  break-stereotypes:
+  free-the-bid:
+  women-owned-marketing-agency:
+  female-director:
+  require-agency-diversity:
+
+category: harassment
+  non-arbitration-clause:
+  sexual-harassment-policy:
+  third-party-reporting:
+  // last-3-years-lawsuit (maybe last lawsuit date):
+  lawsuit-last-date:

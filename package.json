@@ -1,7 +1,7 @@
 {
   "name": "gender-fair-app",
   "main": "server.js",
-  "description": "A simple app to perform Create operations on a Cloudant NoSQL DB",
+  "description": "Gender Fair application to input company data into a database",
   "version": "0.1.1",
   "private": false,
   "engines": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/modlanglais/gender-fair-app"
   },
   "dependencies": {
     "@cloudant/cloudant": "^4.0.0",
