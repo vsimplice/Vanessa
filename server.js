@@ -26,6 +26,7 @@ app.post("/api/companies", function (request, response) {
     "companyName" : request.body.companyName,
     "address" : request.body.address,
     "sector" : request.body.sector,
+    "maternityLeave" : request.body.maternityLeave,
     "lastUpdated": moment()
   };
   if(!mydb) {

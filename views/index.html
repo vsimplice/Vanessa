@@ -31,6 +31,7 @@
                     "companyName": "company name",
                     "address": "address",
                     "sector": "sector",
+                    "maternityLeave" : "maternity leave",
                     "instructions": "Enter the company data here",
                     "databaseNames": "Database contents: "
                 }
@@ -39,6 +40,7 @@
             $('#companyName').attr("placeholder", $.i18n('companyName') );
             $('#address').attr("placeholder", $.i18n('address') );
             $('#sector').attr("placeholder", $.i18n('sector') );
+            $('#maternityLeave').attr("placeholder", $.i18n('maternityLeave') );
             $('#databaseNames').attr("placeholder", $.i18n('databaseNames') );
         });
         </script>
@@ -53,6 +55,7 @@
             <input id="companyName" type="text" class="form-control" aria-describedby="sizing-addon1" value="" />
             <input id="address" type="text" class="form-control" aria-describedby="sizing-addon1" value="" />
             <input id="sector" type="text" class="form-control" aria-describedby="sizing-addon1" value="" />
+            <input id="maternityLeave" type="text" class="form-control" aria-describedby="sizing-addon1" value="" />
         </div>
         <p id="response" class="lead text-center"></p>
 
@@ -76,6 +79,7 @@
         	var companyName = $('#companyName').val();
             var address = $('#address').val();
             var sector = $('#sector').val();
+            var maternityLeave = $('#maternityLeave').val();
             if (e.which == 13 && companyName.length > 0) { //catch Enter key
                 //POST request to API to create a new visitor entry in the database
 
@@ -85,7 +89,7 @@
 				  method: "POST",
 				  url: "./api/companies",
 				  contentType: "application/json",
-				  data: JSON.stringify({companyName, address, sector})
+				  data: JSON.stringify({companyName, address, sector, maternityLeave})
 				})
                 .done(function(data) {
                     if(data && data.companyName){
